@@ -90,6 +90,7 @@ html, body {
     text-transform: uppercase;
     font-size: 15px;
     text-align: right !important;
+    margin-bottom: 38vh;
 }
 
 /* #chhotiheadings {
@@ -107,14 +108,16 @@ html, body {
     text-align: right;
 } */
 
-#herofooter {
+#herofooter a{
     padding: 0 2vw;
     width: 100%;
-    position: absolute;
-    bottom: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    color:white;
+    text-decoration: none;
+    
+    
+    
+    
+    
     
 }
 
@@ -126,22 +129,8 @@ html, body {
 
 
 
-#herofooter #iconset {
-    display: flex;
-    gap: 5px;
-    margin-left:15px;
-}
 
-#herofooter .circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #888;
-    
-}
+
 
 #second {
     color: #fff;
@@ -188,8 +177,7 @@ html, body {
     gap: 50px;
     color: #fff;
     padding: 10vw 10vw;
-    margin-left: 25%;
-    
+    padding-left: 25vw;
     width: 100%;
     margin-top: 100px;
     background-color: black;
